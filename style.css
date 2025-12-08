@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.filme {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.filme:hover {
+  transform: scale(1.05);
+}
+
+.filme img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
