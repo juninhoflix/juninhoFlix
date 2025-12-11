@@ -39,11 +39,6 @@ const filmes = [
     titulo: "Y TU MAMA TAMBIEN ",
     imagem: "TUMAMA.jpeg",
     link: "https://mega.nz/folder/zX5BkZ5Y#u9R7SXG1Cq8quhE__HfXzQ"
-  },
-  {
-    titulo: "Tekkonkinkreet",
-    imagem: "Tekkonkinkreet.jpg",
-    link: "http://127.0.0.1:11470/f77b988a9a077ba978387d4a37ad58dacbd56511/1"
   }
 ];
 
