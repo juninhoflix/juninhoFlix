@@ -6,11 +6,6 @@ const filmes = [
     link: "https://mega.nz/file/rBcAmaZQ#7Uqs3_JqPIfWN4jiXu1vm-0_iUBqg5yBXFPCArUp-5I"
   },
   {
-    titulo: "1984",
-    imagem: "1984.jpeg",
-    link: "https://mega.nz/folder/KNFHTQxZ#D72alxC3QYkMc4v1XfRZjQ"
-  },
-  {
     titulo: "Machuca",
     imagem: "./machuca.jpg",
     link: "https://mega.nz/folder/WOwnXahC#f76XV12918fn3aHn_uX5cw"
