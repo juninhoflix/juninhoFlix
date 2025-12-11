@@ -48,3 +48,11 @@ header {
   font-size: 13px;
   cursor: pointer;
 }
+
+nav{
+  font-size: 12px;
+}
+
+.logo{
+  color: #000a8d;
+}
