@@ -9,7 +9,13 @@ header {
   padding: 20px;
   font-size: 28px;
   font-weight: bold;
-  color: red;
+  
+  
+  background: rgba(41 22 151 / 45%);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
 .catalogo {
@@ -42,19 +48,27 @@ header {
   background: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
   border-radius: 5px;
+  
 }
 
 .ancora-cafe{
   font-size: 13px;
   cursor: pointer;
+  color: lightcoral;
 }
 
 nav{
   font-size: 12px;
 }
 
+nav a {
+  color: aliceblue;
+}
+
 .logo{
-  color: #000a8d;
+  color: aliceblue;
+  font-family: fantasy;
+  font-size: 35px;
 }
 
 .logo-img{
