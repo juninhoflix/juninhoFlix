@@ -43,7 +43,7 @@ const filmes = [
 ];
 
 async function carregarFilmes() {
-  const resposta = await fetch("filmes.txt");
+  const resposta = await fetch("./filmes.txt");
   const texto = await resposta.text();
 
   // divide por linha
