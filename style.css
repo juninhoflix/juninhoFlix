@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: #000;
@@ -10,13 +14,28 @@ header {
   font-size: 28px;
   font-weight: bold;
   
+  z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
   
-  background: rgba(41 22 151 / 45%);
+  background: rgba(93 74 203 / 45%);
   backdrop-filter: blur(12px) saturate(140%);
   -webkit-backdrop-filter: blur(12px) saturate(140%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
+ @media (max-width: 768px) {  
+  .catalogo-position{
+    margin-top: 148px;
+  }
+} 
+
+@media (min-width: 769px) {  
+  .catalogo-position{
+    margin-top: 108px;
+  }
+} 
 
 .catalogo {
   display: grid;
@@ -68,9 +87,9 @@ nav a {
 .logo{
   color: aliceblue;
   font-family: fantasy;
-  font-size: 35px;
+  font-size: 48px;
 }
 
 .logo-img{
-  width: 100px;
+  width: 114px;
 }
