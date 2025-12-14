@@ -1,22 +1,22 @@
 // Lista de filmes: imagem + link
 const filmes = [
   {
-    titulo: "Kombucha",
+    titulo: "KOMBUCHA",
     imagem: "KOMBUCHA.jpg",
     link: "https://mega.nz/folder/SPwnVaZS#MrEdAJ8DRXnEjdUNw6XB4A"    
   },
   {
-    titulo: "Cabra Marcado Para Morrer",
+    titulo: "CABRA MARCADO PARA MORRER",
     imagem: "CABRA.png",
     link: "https://mega.nz/file/WGp1yQbQ#Tqu_7RGH1e0W3xsBjZiC9kOLAfk7im9dZOr0avwpkbo"    
   },
   {
-    titulo: "Soilent Green",
+    titulo: "SOILENT GREEN",
     imagem: "green.jpg",
     link: "https://mega.nz/folder/aXoWlbDZ#WZsBhUWw6RT1rSUiJLta9Q"    
   },
   {
-    titulo: "Machuca",
+    titulo: "MACHUCA",
     imagem: "./machuca.jpg",
     link: "https://mega.nz/folder/WOwnXahC#f76XV12918fn3aHn_uX5cw"
   },
@@ -31,8 +31,8 @@ const filmes = [
     link: "https://mega.nz/folder/fTgWFJIB#yoZdgknGEoav5i5_dMElIg"
   },
   {
-    titulo: "OPEN YOUR EYES",
-    imagem: "OPYE.jpeg",
+    titulo: "ABRE LOS OJOS",
+    imagem: "ABRELOSOJOS.jpg",
     link: "https://mega.nz/folder/qWRFTD4J#SP4ClV5fJnmixYEO9Zx3ww"
   },
   {
@@ -85,6 +85,7 @@ function montarCatalogo(){
 
 // Inicialização
 montarCatalogo();
+
 
 
 
