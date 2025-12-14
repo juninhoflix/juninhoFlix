@@ -1,6 +1,11 @@
 // Lista de filmes: imagem + link
 const filmes = [
   {
+    titulo: "Cabra Marcado Para Morrer",
+    imagem: "CABRA.png",
+    link: "https://mega.nz/file/WGp1yQbQ#Tqu_7RGH1e0W3xsBjZiC9kOLAfk7im9dZOr0avwpkbo"    
+  },
+  {
     titulo: "Soilent Green",
     imagem: "green.jpg",
     link: "https://mega.nz/folder/aXoWlbDZ#WZsBhUWw6RT1rSUiJLta9Q"    
@@ -75,5 +80,6 @@ function montarCatalogo(){
 
 // Inicialização
 montarCatalogo();
+
 
 
