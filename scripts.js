@@ -2,7 +2,7 @@
 const filmes = [
   {
     titulo: "Kombucha",
-    imagem: "KOMBUCHA.png",
+    imagem: "KOMBUCHA.jpg",
     link: "https://mega.nz/folder/SPwnVaZS#MrEdAJ8DRXnEjdUNw6XB4A"    
   },
   {
@@ -85,6 +85,7 @@ function montarCatalogo(){
 
 // Inicialização
 montarCatalogo();
+
 
 
 
